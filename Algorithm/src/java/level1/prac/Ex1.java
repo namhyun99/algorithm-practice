@@ -1,4 +1,4 @@
-package programers.java.level1.prac.ex1;
+package java.level1.prac;
 
 import java.util.Scanner;
 
