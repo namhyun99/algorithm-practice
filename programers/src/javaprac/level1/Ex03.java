@@ -5,7 +5,6 @@ public class Ex03 {
 	/*
 	 * 행렬의 덧셈
 	 */
-	
 	public int[][] solution(int[][] arr1, int[][] arr2){
 		int[][] answer = new int[arr1.length][arr2.length];
 		
@@ -19,7 +18,7 @@ public class Ex03 {
 	}
 
 	
-	//코드 테스트
+	// 출력 테스트
 	public static void main(String[] args) {
 		
 		Ex03 ex3 = new Ex03();
