@@ -1,13 +1,9 @@
 package javaprac.level1;
 
 public class Ex09 {
-	/*
-	 * Â¦¼ö¿Í È¦¼ö
-	 * numÀÌ Â¦¼öÀÎ °æ¿ì 'Even' ¹İÈ¯
-	 * È¦¼öÀÎ °æ¿ì 'Odd'¹İÈ¯
-	 * 
-	 */
 	
+	
+	// ì§ìˆ˜ì™€ í™€ìˆ˜	
     public String solution(int num) {
         String answer = "";
         

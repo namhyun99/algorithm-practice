@@ -2,18 +2,7 @@ package javaprac.level1;
 
 public class Ex06 {
 	
-	/*
-	 * Æò±Õ ±¸ÇÏ±â
-	 * 
-	 * ¡å¹®Á¦¼³¸í
-	 * Á¤¼ö¸¦ ´ã°í ÀÖ´Â ¹è¿­ arrÀÇ Æò±Õ°ªÀ» returnÇÏ´Â ÇÔ¼ö, solutionÀ» ¿Ï¼ºÇØº¸¼¼¿ä.
-	 * 
-	 * ¡åÁ¦ÇÑ»çÇ×
-	 * arrÀº ±æÀÌ 1ÀÌ»ó, 100ÀÌÇÏÀÎ ¹è¿­ÀÔ´Ï´Ù.
-	 * arrÀÇ ¿ø¼Ò´Â -10,000ÀÌ»ó 10,000ÀÌÇÏÀÎ Á¤¼öÀÔ´Ï´Ù.
-	 * 
-	 */
-	
+	// í‰ê·  êµ¬í•˜ê¸°
 	public double solution(int[] arr) {	
 		int sum = 0;
 		for(int i : arr) {
@@ -24,6 +13,8 @@ public class Ex06 {
 		return answer;
 	}
 
+	
+	//ì¶œë ¥ í…ŒìŠ¤íŠ¸
 	public static void main(String[] args) {
 
 		Ex06 ex6 = new Ex06();

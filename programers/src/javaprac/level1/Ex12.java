@@ -4,14 +4,8 @@ import java.util.ArrayList;
 import java.util.Comparator;
 
 public class Ex12 {
-	/*
-	 * Á¤¼ö ³»¸²Â÷¼øÀ¸·Î ¹èÄ¡ÇÏ±â
-	 * 
-	 * ¡å¹®Á¦¼³¸í ÇÔ¼ö solutionÀº Á¤¼ö nÀ» ¸Å°³º¯¼ö·Î ÀÔ·Â¹Ş½À´Ï´Ù. 
-	 * nÀÇ °¢ ÀÚ¸´¼ö¸¦ Å«°ÍºÎÅÍ ÀÛÀº ¼øÀ¸·Î Á¤·ÄÇÑ »õ·Î¿î Á¤¼ö¸¦
-	 * ¸®ÅÏÇØÁÖ¼¼¿ä. ¿¹¸¦µé¾î nÀÌ 118372¸é 873211À» ¸®ÅÏÇÏ¸é µË´Ï´Ù.
-	 * 
-	 */
+	
+	// ì •ìˆ˜ ë‚´ë¦¼ì°¨ìˆœìœ¼ë¡œ ë°°ì¹˜í•˜ê¸°
 	
 	public long solution(long n) {
 		String str = Long.toString(n);
@@ -32,7 +26,7 @@ public class Ex12 {
 		return Long.parseLong(temStr);
 	}
 
-	// Ãâ·Â Å×½ºÆ®
+	// ì¶œë ¥ í…ŒìŠ¤íŠ¸
 	public static void main(String[] args) {
 
 		Ex12 ex12 = new Ex12();

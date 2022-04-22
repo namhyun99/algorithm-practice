@@ -3,18 +3,15 @@ package javaprac.level1;
 import java.util.Arrays;
 
 public class Ex08 {
-	/*
-	 * ÃÖ´ë°ø¾à¼ö¿Í ÃÖ´ë°ø¹è¼ö ±¸ÇÏ±â
-	 * 
-	 * À¯Å¬¸®µå È£Á¦¹ı »ç¿ëÇÏ±â
-	 */
 
+	// ìµœëŒ€ê³µì•½ìˆ˜ì™€ ìµœëŒ€ê³µë°°ìˆ˜ êµ¬í•˜ê¸°
+	// ìœ í´ë¦¬ë“œ í˜¸ì œë²• ì‚¬ìš©í•˜ê¸°
 	public int[] solution(int n, int m) {
 
 		int max = Math.max(n, m); // 12
 		int min = Math.min(n, m); // 3
 			
-		// ÃÖ´ë °ø¾à¼ö
+		// ìµœëŒ€ê³µì•½ìˆ˜
 		
 		while(min != 0) {
 			int r = max % min;  // 0
@@ -23,7 +20,7 @@ public class Ex08 {
 				
 		}
 		
-		//ÃÖ¼Ò °ø¹è¼ö = µÎ¼öÀÇ °ö / ÃÖ´ë°ø¾à¼ö
+		// ìµœì†Œê³µë°°ìˆ˜ = ë‘ìˆ˜ì˜ ê³± / ìµœëŒ€ê³µì•½ìˆ˜
 		
 		int gcd = n * m / max;
 		
@@ -33,7 +30,7 @@ public class Ex08 {
 	}
 	
 	
-
+	// ì¶œë ¥ í…ŒìŠ¤íŠ¸
 	public static void main(String[] args) {
 
 		Ex08 ex8 = new Ex08();

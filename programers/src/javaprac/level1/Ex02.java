@@ -3,20 +3,7 @@ package javaprac.level1;
 import java.util.Arrays;
 
 public class Ex02 {
-	/*
-	 * x¸¸Å­ °£°İÀÌ ÀÖ´Â n°³ÀÇ ¼ıÀÚ
-	 * 
-	 * ¡å¹®Á¦¼³¸í
-	 * ÇÔ¼ö solutionÀº Á¤¼ö x¿Í ÀÚ¿¬¼ö nÀ» ÀÔ·Â¹Ş¾Æ
-	 * xºÎÅÍ ½ÃÀÛÇØ x¾¿ Áõ°¡ÇÏ´Â ¼ıÀÚ¸¦ n°³ Áö³ª´Â ¸®½ºÆ®¸¦ ¸®ÅÏÇØ¾ßÇÕ´Ï´Ù.
-	 * ´ÙÀ½ Á¦ÇÑ Á¶°ÇÀ» º¸°í, Á¶°ÇÀ» ¸¸Á·ÇÏ´Â ÇÔ¼ö,
-	 * solutionÀ» ¿Ï¼ºÇØ ÁÖ¼¼¿ä.
-	 * 
-	 * ¡åÁ¦ÇÑÁ¶°Ç
-	 * x´Â -10000000 ÀÌ»ó, 10000000 ÀÌÇÏÀÎ Á¤¼öÀÔ´Ï´Ù.
-	 * nÀº 1000 ÀÌÇÏÀÎ ÀÚ¿¬¼öÀÔ´Ï´Ù.
-	 * 
-	 */
+	// xë§Œí¼ ê°„ê²©ì´ ìˆëŠ” nê°œì˜ ìˆ«ì
 	
 	public long[] solution(int x, int n) {
 		long[] answer = new long[n];
@@ -26,7 +13,7 @@ public class Ex02 {
 		return answer;
 	}
 	
-	// Ãâ·Â Å×½ºÆ®
+	//ì¶œë ¥ í…ŒìŠ¤íŠ¸ 
 	public static void main(String[] args) {
 		
 		Ex02 ex2 = new Ex02();

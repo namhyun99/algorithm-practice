@@ -3,23 +3,13 @@ package javaprac.level1;
 import java.util.Scanner;
 
 public class Ex01 {
-	/*
-	 * Á÷»ç°¢Çü º°Âï±â
-	 * 
-	 * ÀÔ·Â : 5 3
-	 * Ãâ·Â°á°ú 
-	 * *****
-	 * *****
-	 * *****
-	 * 
-	 */
-
+	// ì§ì‚¬ê°í˜• ë³„ì°ê¸°
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		System.out.print("a°ª ÀÔ·Â : ");
+		System.out.print("aï¿½ï¿½ ï¿½Ô·ï¿½ : ");
 		int a = sc.nextInt();
-		System.out.print("b°ª ÀÔ·Â : ");
+		System.out.print("bï¿½ï¿½ ï¿½Ô·ï¿½ : ");
 		int b = sc.nextInt();
 
 		for (int i = 0; i < b; i++) {

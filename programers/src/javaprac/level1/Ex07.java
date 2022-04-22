@@ -2,9 +2,7 @@ package javaprac.level1;
 
 public class Ex07 {
 
-	/*
-	 * Äİ¶óÃ÷ ÃßÃø
-	 */
+	// ì½œë¼ì¸  ì¶”ì¸¡
 
 	public int solution(long num) {
 

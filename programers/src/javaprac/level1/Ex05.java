@@ -1,23 +1,10 @@
 package javaprac.level1;
 
 public class Ex05 {
-	/*
-	 * ÇÏ»şµå ¼ö
-	 * 
-	 * ¡å¹®Á¦¼³¸í
-	 * ¾çÀÇ Á¤¼ö x°¡ ÇÏ»şµå ¼öÀÌ·Á¸é xÀÇ ÀÚ¸´¼öÀÇ ÇÕÀ¸·Î x°¡ ³ª´©¾îÁ®¾ß ÇÕ´Ï´Ù.
-	 * ¿¹¸¦ µé¾î 18ÀÇ ÀÚ¸´¼ö ÇÕÀº 1+8=9ÀÌ°í, 
-	 * 18Àº 9·Î ³ª´©¾î ¶³¾îÁö¹Ç·Î 18Àº ÇÏ»şµå ¼öÀÔ´Ï´Ù.
-	 * ÀÚ¿¬¼ö x¸¦ ÀÔ·Â¹Ş¾Æ x°¡ ÇÏ»şµå ¼öÀÎÁö ¾Æ´ÑÁö °Ë»çÇÏ´Â ÇÔ¼ö
-	 * solutionÀ» ¿Ï¼ºÇØ ÁÖ¼¼¿ä
-	 * 
-	 * ¡åÁ¦ÇÑÁ¶°Ç
-	 * x´Â 1ÀÌ»ó, 10000ÀÌÇÏÀÎ Á¤¼ö
-	 *  
-	 */
+	// í•˜ìƒ¤ë“œ ìˆ˜
 	public boolean solution(int x) {
 		
-		// ÀÚ¸®¼ö ´õÇÏ±â
+		// ìë¦¬ìˆ˜ ë”í•˜ê¸°
 		String str = Integer.toString(x);
 		char[] ch = new char[str.length()];
 		int sum = 0;
@@ -31,7 +18,7 @@ public class Ex05 {
 			sum += Character.getNumericValue(ch[i]);
 		}
 		
-		// ³ª´©±â
+		// ë‚˜ëˆ„ê¸°
 		
 		if( x % sum == 0) {
 			answer = true;
@@ -43,6 +30,7 @@ public class Ex05 {
 	}
 	
 
+	// ì¶œë ¥ í…ŒìŠ¤íŠ¸
 	public static void main(String[] args) {
 		
 		

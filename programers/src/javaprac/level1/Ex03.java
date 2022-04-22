@@ -2,9 +2,7 @@ package javaprac.level1;
 
 
 public class Ex03 {
-	/*
-	 * Çà·ÄÀÇ µ¡¼À
-	 */
+	// í–‰ë ¬ì˜ ë§ì…ˆ
 	public int[][] solution(int[][] arr1, int[][] arr2){
 		int[][] answer = new int[arr1.length][arr2.length];
 		
@@ -18,7 +16,7 @@ public class Ex03 {
 	}
 
 	
-	// Ãâ·Â Å×½ºÆ®
+	//ì¶œë ¥ í…ŒìŠ¤íŠ¸
 	public static void main(String[] args) {
 		
 		Ex03 ex3 = new Ex03();
@@ -27,7 +25,6 @@ public class Ex03 {
 		int[][] arr2 = {{3,4},{5,6}};
 		int[][] result = ex3.solution(arr1, arr2);
 
-		// ÀÌÂ÷¿ø¹è¿­ Ãâ·Â
 		for(int i = 0; i < result.length; i++) {
 			for(int j = 0; j < result[i].length; j++) {
 				System.out.print(result[i][j] + " ");
