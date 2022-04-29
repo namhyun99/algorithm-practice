@@ -14,12 +14,10 @@ public class Ex07 {
 				break;
 			}
 			
-			if(num % 2 == 0) {
-				num /= 2;
-			} else {
-				num = num * 3 + 1;
-			}			
+			if(num % 2 == 0) num /= 2;
+			else num = num * 3 + 1;		
 			
+			System.out.println(answer + "번째 : " + num);
 			answer++;
 		}
 
@@ -30,8 +28,8 @@ public class Ex07 {
 
 		Ex07 ex7 = new Ex07();
 
-		System.out.println(ex7.solution(6));
-		System.out.println(ex7.solution(16));
+//		System.out.println(ex7.solution(6));
+//		System.out.println(ex7.solution(16));
 		System.out.println(ex7.solution(626331));
 
 	}
