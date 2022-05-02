@@ -1,25 +1,27 @@
 package javaprac.level1;
 
-
+// 시저암호
 public class Ex17 {
 	public String solution(String s, int n) {
 
 		String answer = "";
-		
-		char[] chArr = new char[s.length()];
+
 		for (int i = 0; i < s.length(); i++) {
-			chArr[i] = s.charAt(i);
-		}
-		
-		String str = "a";
-		String[] tempArr = new String[26];
-		for (int i = 0; i < tempArr.length; i++) {
-			tempArr[i] = str;
-		}
-		
+			char ch = s.charAt(i);
 
+			if (ch == ' ') {
+				answer += ch;
+				continue;
+			}
 
-	
+			if (Character.isLowerCase(ch)) {
+				answer += (char) ((ch - 'a' + n) % 26 + 'a');
+			} else if (Character.isUpperCase(ch)) {
+				answer += (char) ((ch - 'A' + n) % 26 + 'A');
+			}
+
+		}
+
 		return answer;
 	}
 
@@ -28,8 +30,8 @@ public class Ex17 {
 		Ex17 ex17 = new Ex17();
 
 		System.out.println(ex17.solution("AB", 1));
-		// System.out.println(ex17.solution("z", 1));
-		// System.out.println(ex17.solution("a B z", 4));
+		System.out.println(ex17.solution("z", 1));
+		System.out.println(ex17.solution("a B z", 4));
 
 	}
 
