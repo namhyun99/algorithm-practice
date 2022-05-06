@@ -38,8 +38,8 @@ public class Ex08 {
 		int[] arr1 = ex8.solution(3, 12);
 		int[] arr2 = ex8.solution(2, 5);
 
-		System.out.println(Arrays.toString(arr1));
-		System.out.println(Arrays.toString(arr2));
+//		System.out.println(Arrays.toString(arr1));
+//		System.out.println(Arrays.toString(arr2));
 
 	}
 

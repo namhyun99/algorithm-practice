@@ -22,11 +22,11 @@ My Algorithm Source Code Storage
 14. [자릿수 더하기](https://github.com/namhyun99/Algorithm/blob/main/programers/src/javaprac/level1/Ex14.java)
 15. [이상한 문자 만들기](https://github.com/namhyun99/Algorithm/blob/main/programers/src/javaprac/level1/Ex15.java)
 16. [약수의 합](https://github.com/namhyun99/Algorithm/blob/main/programers/src/javaprac/level1/Ex16.java)
-17. [시저 암호]()
-18. [문자열을 정수로 바꾸기]()
-19. [수박수박수박수박수박수?]()
-20. [소수 찾기]()
-21. [서울에서 김서방 찾기]()
+17. [시저 암호](https://github.com/namhyun99/Algorithm/blob/main/programers/src/javaprac/level1/Ex17.java)
+18. [문자열을 정수로 바꾸기](https://github.com/namhyun99/Algorithm/blob/main/programers/src/javaprac/level1/Ex18.java)
+19. [수박수박수박수박수박수?](https://github.com/namhyun99/Algorithm/blob/main/programers/src/javaprac/level1/Ex19.java)
+20. [소수 찾기](https://github.com/namhyun99/Algorithm/blob/main/programers/src/javaprac/level1/Ex20.java)
+21. [서울에서 김서방 찾기](https://github.com/namhyun99/Algorithm/blob/main/programers/src/javaprac/level1/Ex21.java)
 22. [문자열 다루기 기본]()
 
 
