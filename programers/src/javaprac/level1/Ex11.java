@@ -7,7 +7,7 @@ public class Ex11 {
     	
     	long answer = 0;
     	Double x = Math.sqrt(n);
-    	   	   	
+
     	if( x == x.intValue()) {
     		answer = (long) Math.pow(x + 1, 2);    		
     	} else {
@@ -23,8 +23,9 @@ public class Ex11 {
 		
 		
 		Ex11 ex11 = new Ex11();
-//      System.out.println(ex11.solution(121));
+		System.out.println(ex11.solution(121));
 		System.out.println(ex11.solution(3));
+
 	}
 
 }
