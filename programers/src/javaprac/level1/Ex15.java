@@ -12,23 +12,19 @@ public class Ex15 {
 
 		for (String s1 : strArr) {
 //			cnt = s1.contains(" ") ? 0 : cnt + 1;
-			
-			if(s1.contains(" "))
+			if (s1.contains(" "))
 				cnt = 0;
 			else
-				cnt++;		
-			
+				cnt++;
+
 //			answer += cnt % 2 == 0 ? s1.toLowerCase() : s1.toUpperCase();
-			
-			if(cnt%2 == 0) {
+
+			if (cnt % 2 == 0) {
 				answer += s1.toLowerCase();
 			} else {
 				answer += s1.toUpperCase();
 			}
-			
-			
 		}
-
 		return answer;
 	}
 

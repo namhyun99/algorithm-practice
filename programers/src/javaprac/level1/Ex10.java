@@ -7,7 +7,7 @@ public class Ex10 {
 
 	// 제일 작은 수 제거하기
 	public int[] solution(int[] arr) {
-		
+
 		int[] temArr = arr.clone();
 		Arrays.sort(temArr);
 		int min = temArr[0];

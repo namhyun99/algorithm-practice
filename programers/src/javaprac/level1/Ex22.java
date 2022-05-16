@@ -15,7 +15,6 @@ public class Ex22 {
 			return false;
 	}
 
-
 	public static void main(String[] args) {
 
 		Ex22 ex22 = new Ex22();

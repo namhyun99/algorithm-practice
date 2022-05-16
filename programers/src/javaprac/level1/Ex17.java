@@ -3,9 +3,7 @@ package javaprac.level1;
 // 시저암호
 public class Ex17 {
 	public String solution(String s, int n) {
-
 		String answer = "";
-
 		for (int i = 0; i < s.length(); i++) {
 			char ch = s.charAt(i);
 
@@ -19,9 +17,7 @@ public class Ex17 {
 			} else if (Character.isUpperCase(ch)) {
 				answer += (char) ((ch - 'A' + n) % 26 + 'A');
 			}
-
 		}
-
 		return answer;
 	}
 

@@ -27,7 +27,16 @@ My Algorithm Source Code Storage
 19. [수박수박수박수박수박수?](https://github.com/namhyun99/Algorithm/blob/main/programers/src/javaprac/level1/Ex19.java)
 20. [소수 찾기](https://github.com/namhyun99/Algorithm/blob/main/programers/src/javaprac/level1/Ex20.java)
 21. [서울에서 김서방 찾기](https://github.com/namhyun99/Algorithm/blob/main/programers/src/javaprac/level1/Ex21.java)
-22. [문자열 다루기 기본]()
+22. [문자열 다루기 기본](https://github.com/namhyun99/Algorithm/blob/main/programers/src/javaprac/level1/Ex22.java)
+23. [문자열 내림차순으로 배치하기](https://github.com/namhyun99/Algorithm/blob/main/programers/src/javaprac/level1/Ex23.java)
+24. [문자열 내 p와 y의 개수](https://github.com/namhyun99/Algorithm/blob/main/programers/src/javaprac/level1/Ex24.java)
+25. [문자열 내 마음대로 정렬하기](https://github.com/namhyun99/Algorithm/blob/main/programers/src/javaprac/level1/Ex25.java)
+26. [두 정수 사이의 합](https://github.com/namhyun99/Algorithm/blob/main/programers/src/javaprac/level1/Ex26.java)
+27. [나누어 떨어지는 숫자 배열](https://github.com/namhyun99/Algorithm/blob/main/programers/src/javaprac/level1/Ex27.java)
+28. [같은 숫자는 싫어]()
+29. [[1차]다트게임]()
+30. [가운데 글자 가져오기]()
+31. [[1차]비밀지도]()
 
 
 

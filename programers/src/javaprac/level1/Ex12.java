@@ -4,25 +4,25 @@ import java.util.ArrayList;
 import java.util.Comparator;
 
 public class Ex12 {
-	
+
 	// 정수 내림차순으로 배치하기
-	
+
 	public long solution(long n) {
 		String str = Long.toString(n);
 		ArrayList<Character> list = new ArrayList<Character>();
-		
-		for(int i = 0; i < str.length(); i++) {
-			list.add(str.charAt(i));			
+
+		for (int i = 0; i < str.length(); i++) {
+			list.add(str.charAt(i));
 		}
-		
+
 		list.sort(Comparator.reverseOrder());
-		
+
 		String temStr = "";
-		
-		for(int i = 0; i < list.size(); i++) {
+
+		for (int i = 0; i < list.size(); i++) {
 			temStr += list.get(i);
 		}
-		
+
 		return Long.parseLong(temStr);
 	}
 
