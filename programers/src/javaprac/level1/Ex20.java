@@ -5,7 +5,6 @@ public class Ex20 {
 
 	public int solution(int n) {
 		 int answer = 0;
-	        
 	        // 1. 에라토스테네스의 체로 거르기 위한 1차원 배열.
 	        boolean check[] = new boolean[n+1];
 	        

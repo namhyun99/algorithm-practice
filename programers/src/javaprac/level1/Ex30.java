@@ -1,7 +1,7 @@
 package javaprac.level1;
 
 public class Ex30 {
-	
+	//가운데 글자 가져오기
 	public String solution(String s) {
 		String answer = "";
 		if(s.length() % 2 == 0) {
