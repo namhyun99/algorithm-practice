@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -14,36 +15,61 @@ public class B_2108 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int N = Integer.parseInt(br.readLine());
-		List<Integer> list = new ArrayList<>();
+		int[] arr = new int[N];
 		int sum = 0; //합계
 		
 		for(int i=0; i<N; i++) {
-			int num = Integer.parseInt(br.readLine());
-			list.add(num);
-			sum += num;
+			arr[i] = Integer.parseInt(br.readLine());
+			sum += arr[i]; 
 		}
+		Arrays.sort(arr);
 		
-		Collections.sort(list); //중앙값을 위해 리스트 오름차순 정렬
+		//산술평균
+		int avg = (int)Math.round((double)sum / N);
+
+		//중앙값
+		int mid = arr[N/2];
 		
-		int avg = (int) Math.round((double)sum/N); //산술평균
-		int median = list.get(N/2); //중앙값
-		int range = list.get(list.size()-1) - list.get(0); //범위
-		
-		int mode = 0; //최빈값
+		//최빈값
 		boolean flag = false;
+		int mode_max = 0;
+		int mode = 10000;
 		
-		for(int i=0; i<list.size(); i++) {
-			
+		for(int i=0; i<N; i++) {
+		  int jump = 0;
+		  int count = 1;
+		  
+		  for(int j=i+1; j<N; j++) {
+		    if(arr[i] != arr[j]) {
+		      break;
+		    }
+		    count++;
+		    jump++;
+		  }
+		  
+		  if(count > mode_max) {
+		    mode_max = count;
+		    mode = arr[i];
+		    flag = true;
+		  }
+		  else if(count == mode_max && flag == true) {
+		    mode = arr[i];
+		    flag = false;
+		  }
+		  
+		  i += jump;
 		}
 		
-		System.out.println(list.toString());
+		//범위
+		int range = arr[N-1] - arr[0];
 		
+		
+		//출력
 		StringBuilder Builder = new StringBuilder();
 		Builder.append(avg).append("\n");
-		Builder.append(median).append("\n");
+		Builder.append(mid).append("\n");
 		Builder.append(mode).append("\n");
 		Builder.append(range).append("\n");
-		
 		System.out.println(Builder);
 		
 	}
